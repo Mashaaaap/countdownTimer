@@ -19,7 +19,7 @@ function timer(){
         min.value--;
     } else if (hours.value != 0 && min.value == 0) {
         min.value = 60;
-        hours.vlue--;
+        hours.value--;
     }
     return
 }
